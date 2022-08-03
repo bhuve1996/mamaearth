@@ -34,6 +34,15 @@ svg path{fill: red;}
 /* Banner Ad Section */
 .me-banner-ad{background-color: black;display: flex;align-items: center;justify-content: center ;}
 .me-banner-ad-container ul{display: flex;}
-.me-banner-ad-container ul li{width: 25%;}
+.me-banner-ad-container ul li{margin-right: 8%;}
 .me-banner-ad-container-list{display: flex;align-items: center;justify-content: left;color: white ;padding: 0.5% 5%;}
 .me-banner-ad-container-list i{margin-right: 5px;font-size: 0.75rem;}
+
+/* About us container */
+.me-aboutus-container{
+  margin-top: 3%;
+}
+.me-aboutus-right-inner-container{
+  padding: 50px;
+}
+
