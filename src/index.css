@@ -1,0 +1,39 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+
+body{font-family: 'Poppins', sans-serif;font-size: 18px;}
+
+li{list-style-type: none;}
+
+.button{
+  display: inline-block; font-family: 'Poppins'!important; font-weight: 700; line-height: 120%; letter-spacing: 10%; border-radius: 5px; border: none; text-transform: uppercase;
+}
+/* Banner Section */
+.me-banner{background-color: #9cddef;display: flex;}
+
+.me-banner-left{display: flex;flex-direction: column;width: 50%;
+align-items: center;justify-content: center;min-height: 100%;position: relative;
+
+}
+.me-banner-right{width: 50%;}
+.me-banner-right img{width: 100%;min-height: 100%;border-top-left-radius: 10px;}
+.me-banner-left{background-image: url('../public/images/pngegg.png');background-repeat: no-repeat;    background-size: 100%;}
+.me-banner-left-inner-container h2{font-size: 2rem;}
+.me-banner-left-inner-container h3{font-size: 2rem;margin: 10px 0; }
+.me-banner-left-inner-container p{font-size: 1rem;margin: 10px 0;}
+.me-banner svg{
+  transform: rotate(-90deg)
+ }
+ .me-svg-container{
+  transform: rotate(-90deg);
+ }
+ .me-svg-inner-container { height: 250%; width: 247px; top: -80px; left: unset; right: -125px;z-index: 10;position: absolute; }
+.button-home-banner{  padding: 16px 30px;  background-color: #141414; color: #fff;margin-top: 30px;min-width: 224px;font-size: 1.1rem;}
+.bg-wave{width: 100%;height: 100%;}
+svg path{fill: red;}
+
+/* Banner Ad Section */
+.me-banner-ad{background-color: black;display: flex;align-items: center;justify-content: center ;}
+.me-banner-ad-container ul{display: flex;}
+.me-banner-ad-container ul li{width: 25%;}
+.me-banner-ad-container-list{display: flex;align-items: center;justify-content: left;color: white ;padding: 0.5% 5%;}
+.me-banner-ad-container-list i{margin-right: 5px;font-size: 0.75rem;}
