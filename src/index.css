@@ -12,7 +12,7 @@ li{list-style-type: none;}
 
 .me-banner-left{display: flex;flex-direction: column;width: 50%;
 align-items: center;justify-content: center;min-height: 100%;position: relative;
-
+margin: 2%;
 }
 .me-banner-right{width: 50%;}
 .me-banner-right img{width: 100%;min-height: 100%;border-top-left-radius: 10px;}
@@ -42,7 +42,116 @@ svg path{fill: red;}
 .me-aboutus-container{
   margin-top: 3%;
 }
+.me-aboutus-left{
+  width: 50%;
+  padding: 30px;
+}
+.me-aboutus-right{
+  width: 50%;
+  background-image: url('../public/images/pngegg.png');background-repeat: no-repeat;
+  padding: 15px; background-size: 80%;
+  margin: 2%;
+}
 .me-aboutus-right-inner-container{
-  padding: 50px;
+  padding: 30px;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
 }
 
+.me-aboutus-left-inner-container>form>label{
+  font-size: 1rem;
+  margin-right: 5%;
+}
+.me-aboutus-left-inner-container>form{
+background-color: #fff;
+padding: 3rem;
+margin: 10px 0;
+}
+input{
+  padding: 10px;
+  border: none;
+  background-color: #ececec;
+  border-radius: 5px;
+  width: 100%;
+}
+input:focus{
+  outline: 1px solid #ccc4c4;
+}
+.me-btn-form{
+  padding: 3px 20px;
+  background-color: #3c6aaf;
+  border: none;
+  height: 40px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 4%;
+  text-align: center;
+  border-radius: 5px;
+}
+.me-btn-form:hover{
+  cursor: pointer;
+}
+/* Why us section */
+.me-whyus-container{
+  margin-top: 3%;
+  background-color: #9cddef;
+}
+.me-whyus-header{
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 20px;
+}
+.me-whyus-headercontent{
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.me-whyus-subcontent{
+  padding: 10px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media  (max-width: 768px) {
+  .me-banner{
+    flex-direction: column;
+  }
+  .me-banner-left{
+    width: 100%; 
+  }
+  .me-banner-left-inner-container{
+    justify-content: center; padding: 25px; align-items: center; text-align: center;
+  }
+  .me-banner-left-inner-container h3{
+    font-size: 1.8rem;
+  }
+  .me-banner-right{
+    width: 100%;
+  }
+  .me-aboutus-left,.me-aboutus-right{
+    width: 100%;
+    padding:15px
+  }
+  .me-aboutus-right{
+    background-size: 100%;
+  }
+
+  .me-whyus-headercontent{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    padding:10px;
+    align-items: center;
+    text-align: center;
+  }
+  .me-whyus-subcontent{
+    padding: 15px 0;
+  }
+  
+  
+}

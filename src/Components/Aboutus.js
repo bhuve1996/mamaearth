@@ -2,16 +2,45 @@ function Aboutus() {
   return <>
     <section>
         <div className="me-banner">
-          <div className="me-banner-left">
+          <div className="me-aboutus-left">
           <div className="me-aboutus-left-inner-container">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSep02FE82d4gAX79YAS6CEQ5soLJiX_VCq98rHo5fHzylJ-KA/viewform?embedded=true" max-width="640" max-height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSep02FE82d4gAX79YAS6CEQ5soLJiX_VCq98rHo5fHzylJ-KA/viewform?embedded=true" max-width="640" max-height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+          <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLSep02FE82d4gAX79YAS6CEQ5soLJiX_VCq98rHo5fHzylJ-KA/formResponse"
+        method="post">
+        <label htmlFor="me-name">Name :</label>
+        <div>
+        <input type="text" placeholder="Name*" name="entry.2005620554" required/></div>
+        
+        <label htmlFor="me-email">Email Address :</label>
+        <div>
+        <input type="email" placeholder="Email address*" name="entry.1045781291" required/></div>
+        
+        <label htmlFor="me-address">Address :</label>
+        <div>
+        <input type="text" placeholder="Address" name="entry.1065046570"/>
+        </div>
+        
+        <label htmlFor="me-phone">Phone No :</label>
+        <div>
+        <input type="text" placeholder="Phone No" name="entry.1166974658"/></div>
+        
+        <label htmlFor="me-comments">Comments :</label>
+        <div>
+        <input type="text" placeholder="Comments" name="entry.839337160"/>
+        </div>
+        
+       {/* <label>Message*</label>
+        <textarea rows="5" placeholder="Message*" name="entry.1166974658" required></textarea>  */}
 
+        <button type="submit" className="me-btn-form">Send</button>
+    </form>
               
             </div>
 
             
           </div>
-          <div className="me-banner-right">
+          <div className="me-aboutus-right">
             
             <div className="me-aboutus-right-inner-container">
               <h2>Our Goodness Promise</h2>
