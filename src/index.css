@@ -89,19 +89,69 @@ input:focus{
   text-align: center;
   border-radius: 5px;
 }
-/*  */
-/* .m7w29c{background-color: red;}
-.ff-form .ff-powered-img{
-opacity: 0;
-visibility: hidden;
-} */
+.me-btn-form:hover{
+  cursor: pointer;
+}
+/* Why us section */
+.me-whyus-container{
+  margin-top: 3%;
+  background-color: #9cddef;
+}
+.me-whyus-header{
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 20px;
+}
+.me-whyus-headercontent{
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.me-whyus-subcontent{
+  padding: 10px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
 
-/* .me-aboutus-left-inner-container div{
-  background-color: red !important;
-} */
-/* iframe{
-  background-color: red;
-} */
-/* .m7w29c{
-  background-color: red !important;
-} */
+
+@media  (max-width: 768px) {
+  .me-banner{
+    flex-direction: column;
+  }
+  .me-banner-left{
+    width: 100%; 
+  }
+  .me-banner-left-inner-container{
+    justify-content: center; padding: 25px; align-items: center; text-align: center;
+  }
+  .me-banner-left-inner-container h3{
+    font-size: 1.8rem;
+  }
+  .me-banner-right{
+    width: 100%;
+  }
+  .me-aboutus-left,.me-aboutus-right{
+    width: 100%;
+    padding:15px
+  }
+  .me-aboutus-right{
+    background-size: 100%;
+  }
+
+  .me-whyus-headercontent{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    padding:10px;
+    align-items: center;
+    text-align: center;
+  }
+  .me-whyus-subcontent{
+    padding: 15px 0;
+  }
+  
+  
+}
