@@ -19,7 +19,7 @@ function Aboutus() {
                     name="entry.2005620554"
                     required
                   />
-                  <label>Name :</label>
+                  <label>Name*</label>
                 </div>
 
                 <div className="text-field">
@@ -39,7 +39,7 @@ function Aboutus() {
                     name="entry.1065046570"
                     required
                   />
-                  <label>Address :</label>
+                  <label>Address</label>
                 </div>
                 <div className="text-field">
                   <input
@@ -61,33 +61,7 @@ function Aboutus() {
                   <label>Comments</label>
                 </div>
 
-                {/* <div className="text-field">
-                  <input
-                    type="text"
-                    placeholder=""
-                    name="entry.1065046570"
-                  />
-                  <label htmlFor="me-address">Address :</label>
-                </div> */}
-
-                {/* <div className="text-field">
-                  <input
-                    type="text"
-                    placeholder=""
-                    name="entry.1166974658"
-                  />
-                  <label htmlFor="me-phone">Phone No</label>
-                </div> */}
-
-                {/* <div className="text-field">
-                
-                  <input
-                    type="text"
-                    placeholder=""
-                    name="entry.839337160"
-                  />
-                  <label htmlFor="me-comments">Comments</label>
-                </div> */}
+          
 
                 {/* <label>Message*</label>
         <textarea rows="5" placeholder="Message*" name="entry.1166974658" required></textarea>  */}
