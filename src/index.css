@@ -157,7 +157,7 @@ svg path {
 }
 
 .me-form-header {
-  color: #785424;
+  color: #80c342;
 }
 
 .me-aboutus-right {
@@ -183,6 +183,7 @@ svg path {
 
 .me-aboutus-right-inner-container h2 {
   padding-bottom: 1rem;
+  color: #80c342;
 }
 
 .me-form-header {
@@ -206,6 +207,10 @@ svg path {
   font-size: 1.2rem;
   text-align: center;
   padding-top: 20px;
+}
+
+.me-whyus-header h2{
+  color: #80c342;
 }
 
 .me-whyus-headercontent {

@@ -7,7 +7,7 @@ function Aboutus() {
         <div className="me-aboutus">
           <div className="me-aboutus-left">
             <div className="me-aboutus-left-inner-container">
-              <div className="me-form-header">Contact Us</div>
+              <div className="me-form-header"><h2>Contact Us</h2></div>
               <form
                 action="https://docs.google.com/forms/d/e/1FAIpQLSep02FE82d4gAX79YAS6CEQ5soLJiX_VCq98rHo5fHzylJ-KA/formResponse"
                 method="post"
