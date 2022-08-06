@@ -1,73 +1,79 @@
 .text-field {
-    position: relative;
-    margin: 10px 2.5px 20px 2.5px;
+  position: relative;
+  margin: 10px 2.5px 20px 2.5px;
 }
-label{
-    font-size: 1rem;
+
+label {
+  font-size: 1rem;
 }
+
 input {
-    display: inline-block;
-    border: thin solid #fafafa;
-    border-bottom: 1px solid #785424;
-    color: #444;
-    background-color: #fff;
-    padding: 10px;
-    width: 100%;
-    border-radius: 5px;
-   
+  display: inline-block;
+  border: thin solid #fafafa;
+  border-bottom: 1px solid #785424;
+  color: #444;
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+
 }
 
 input:focus {
-        border: thin solid #80c342;
-        border-bottom: solid medium #80c342;
-        background-color:#fafafa;
-    }
+  border: thin solid #80c342;
+  border-bottom: solid medium #80c342;
+  background-color: #fafafa;
+}
 
 label {
-    color: #999;
-    position: absolute;
-    pointer-events: none;
-    left: 10px;
-    top: 10px;
-    transition: 0.2s;
+  color: #999;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 10px;
+  transition: 0.2s;
 }
 
-input:focus ~ label, input:valid ~ label {
-    top: -10px;
-    left: 15px;
-    font-size: small;
-    color: #80c342;
-    background-color:#fff;
-    padding:0 5px 0 5px;
+input:focus~label,
+input:valid~label {
+  top: -10px;
+  left: 15px;
+  font-size: small;
+  color: #80c342;
+  background-color: #fff;
+  padding: 0 5px 0 5px;
 }
 
 
-.me-aboutus-left-inner-container>form{
-    background-color: #fff;
-    padding: 1rem;
-    margin: 10px 0;
-    }
-    .me-aboutus-left-inner-container>form>label{
-        font-size: 1rem;
-        margin-right: 5%;
-      }
-  
-      input:focus{
-        outline: 1px solid #ccc4c4;
-      }
-      .me-btn-form{
-        padding: 3px 20px;
-        background-color: #785424;
-        border: none;
-        height: 40px;
-        color: #fff;
-        font-size: 1.2rem;
-        margin-top: 4%;
-        text-align: center;
-        border-radius: 5px;
-      }
-      .me-btn-form:hover{
-        cursor: pointer;
-        background-color: #80c342;
-        transition-duration: .8s;
-      }
+.me-aboutus-left-inner-container>form {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 10px 0;
+}
+
+.me-aboutus-left-inner-container>form>label {
+  font-size: 1rem;
+  margin-right: 5%;
+}
+
+input:focus {
+  outline: 1px solid #ccc4c4;
+}
+
+.me-btn-form {
+  padding: 3px 20px;
+  background-color: #785424;
+  border: none;
+  height: 40px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 4%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.me-btn-form:hover {
+  cursor: pointer;
+  background-color: #80c342;
+  transition-duration: .8s;
+}

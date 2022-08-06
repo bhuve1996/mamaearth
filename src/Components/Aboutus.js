@@ -1,4 +1,4 @@
-import "./form.css"
+import "./form.css";
 
 function Aboutus() {
   return (
@@ -7,13 +7,11 @@ function Aboutus() {
         <div className="me-aboutus">
           <div className="me-aboutus-left">
             <div className="me-aboutus-left-inner-container">
-              
               <div className="me-form-header">Contact Us</div>
               <form
                 action="https://docs.google.com/forms/d/e/1FAIpQLSep02FE82d4gAX79YAS6CEQ5soLJiX_VCq98rHo5fHzylJ-KA/formResponse"
                 method="post"
               >
-                
                 <div className="text-field">
                   <input
                     type="text"
@@ -21,10 +19,9 @@ function Aboutus() {
                     name="entry.2005620554"
                     required
                   />
-                  <label htmlFor="me-name">Name :</label>
+                  <label>Name :</label>
                 </div>
 
-                
                 <div className="text-field">
                   <input
                     type="email"
@@ -32,31 +29,57 @@ function Aboutus() {
                     name="entry.1045781291"
                     required
                   />
-                  <label htmlFor="me-email">Email Address*</label>
+                  <label>Email Address*</label>
                 </div>
 
-                
                 <div className="text-field">
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="entry.1065046570"
+                    required
+                  />
+                  <label>Address :</label>
+                </div>
+                <div className="text-field">
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="entry.1166974658"
+                    required
+                  />
+                  <label>Phone No</label>
+                </div>
+
+                <div className="text-field">
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="entry.839337160"
+                    required
+                  />
+                  <label>Comments</label>
+                </div>
+
+                {/* <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
                     name="entry.1065046570"
                   />
                   <label htmlFor="me-address">Address :</label>
-                </div>
+                </div> */}
 
-                
-                <div className="text-field">
+                {/* <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
                     name="entry.1166974658"
                   />
                   <label htmlFor="me-phone">Phone No</label>
-                </div>
+                </div> */}
 
-                
-                <div className="text-field">
+                {/* <div className="text-field">
                 
                   <input
                     type="text"
@@ -64,7 +87,7 @@ function Aboutus() {
                     name="entry.839337160"
                   />
                   <label htmlFor="me-comments">Comments</label>
-                </div>
+                </div> */}
 
                 {/* <label>Message*</label>
         <textarea rows="5" placeholder="Message*" name="entry.1166974658" required></textarea>  */}
@@ -88,7 +111,7 @@ function Aboutus() {
                 toxins or harmful chemicals.{" "}
               </p>
 
-              <button className="button">SHOP NOW</button>
+              <button className="me-btn-form">SHOP NOW</button>
             </div>
           </div>
         </div>
