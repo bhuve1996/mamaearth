@@ -13,7 +13,7 @@ function App() {
             <Banner />
           </div>
           <div className="me-banner-ad-container">
-            <BannerAd/>
+            <BannerAd />
           </div>
           <div className="me-aboutus-container">
             <Aboutus />

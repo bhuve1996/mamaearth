@@ -2,7 +2,6 @@ function Banner() {
   return (
     <>
       <section>
-
         {/* <div className="me-banner">
           <div className="me-banner-left">
             <div className="me-banner-left-inner-container">
@@ -18,12 +17,10 @@ function Banner() {
             <img src="images/banner_2.png" />
           </div>
         </div> */}
-        
-        <div className="me-banner">
-            <img src="images/me-banner.gif" />
-         
-        </div>
 
+        <div className="me-banner">
+          <img src="images/me-banner.gif" />
+        </div>
       </section>
     </>
   );

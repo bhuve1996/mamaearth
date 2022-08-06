@@ -61,8 +61,6 @@ function Aboutus() {
                   <label>Comments</label>
                 </div>
 
-          
-
                 {/* <label>Message*</label>
         <textarea rows="5" placeholder="Message*" name="entry.1166974658" required></textarea>  */}
 
