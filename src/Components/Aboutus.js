@@ -1,60 +1,69 @@
+import "./form.css"
+
 function Aboutus() {
   return (
     <>
       <section>
-        <div className="me-banner">
+        <div className="me-aboutus">
           <div className="me-aboutus-left">
             <div className="me-aboutus-left-inner-container">
-              {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSep02FE82d4gAX79YAS6CEQ5soLJiX_VCq98rHo5fHzylJ-KA/viewform?embedded=true" max-width="640" max-height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+              
+              <div className="me-form-header">Contact Us</div>
               <form
                 action="https://docs.google.com/forms/d/e/1FAIpQLSep02FE82d4gAX79YAS6CEQ5soLJiX_VCq98rHo5fHzylJ-KA/formResponse"
                 method="post"
               >
-                <label htmlFor="me-name">Name :</label>
-                <div>
+                
+                <div className="text-field">
                   <input
                     type="text"
-                    placeholder="Name*"
+                    placeholder=""
                     name="entry.2005620554"
                     required
                   />
+                  <label htmlFor="me-name">Name :</label>
                 </div>
 
-                <label htmlFor="me-email">Email Address :</label>
-                <div>
+                
+                <div className="text-field">
                   <input
                     type="email"
-                    placeholder="Email address*"
+                    placeholder=""
                     name="entry.1045781291"
                     required
                   />
+                  <label htmlFor="me-email">Email Address*</label>
                 </div>
 
-                <label htmlFor="me-address">Address :</label>
-                <div>
+                
+                <div className="text-field">
                   <input
                     type="text"
-                    placeholder="Address"
+                    placeholder=""
                     name="entry.1065046570"
                   />
+                  <label htmlFor="me-address">Address :</label>
                 </div>
 
-                <label htmlFor="me-phone">Phone No :</label>
-                <div>
+                
+                <div className="text-field">
                   <input
                     type="text"
-                    placeholder="Phone No"
+                    placeholder=""
                     name="entry.1166974658"
                   />
+                  <label htmlFor="me-phone">Phone No</label>
                 </div>
 
-                <label htmlFor="me-comments">Comments :</label>
-                <div>
+                
+                <div className="text-field">
+                
                   <input
                     type="text"
-                    placeholder="Comments"
+                    placeholder=""
                     name="entry.839337160"
                   />
+                  <label htmlFor="me-comments">Comments</label>
                 </div>
 
                 {/* <label>Message*</label>
@@ -79,7 +88,7 @@ function Aboutus() {
                 toxins or harmful chemicals.{" "}
               </p>
 
-              <button className="button button-home-banner">SHOP NOW</button>
+              <button className="button">SHOP NOW</button>
             </div>
           </div>
         </div>

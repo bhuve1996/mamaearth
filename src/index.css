@@ -3,12 +3,15 @@
 body{font-family: 'Poppins', sans-serif;font-size: 18px;}
 
 li{list-style-type: none;}
-
+img{
+  max-width: 100%;
+}
 .button{
   display: inline-block; font-family: 'Poppins'!important; font-weight: 700; line-height: 120%; letter-spacing: 10%; border-radius: 5px; border: none; text-transform: uppercase;
 }
 /* Banner Section */
-.me-banner{background-color: #9cddef;display: flex;}
+.me-banner{background-color: #9cddef
+}
 
 .me-banner-left{display: flex;flex-direction: column;width: 50%;
 align-items: center;justify-content: center;min-height: 100%;position: relative;
@@ -32,7 +35,8 @@ margin: 2%;
 svg path{fill: red;}
 
 /* Banner Ad Section */
-.me-banner-ad{background-color: black;display: flex;align-items: center;justify-content: center ;}
+.me-banner-ad{background-color: black;display: flex;align-items: center;justify-content: center;
+margin: 0; padding: .5rem;}
 .me-banner-ad-container ul{display: flex;}
 .me-banner-ad-container ul li{margin-right: 8%;}
 .me-banner-ad-container-list{display: flex;align-items: center;justify-content: left;color: white ;padding: 0.5% 5%;}
@@ -42,60 +46,53 @@ svg path{fill: red;}
 .me-aboutus-container{
   margin-top: 3%;
 }
+.me-aboutus{
+  background-color: #fff;
+  display: flex;
+}
 .me-aboutus-left{
   width: 50%;
   padding: 30px;
 }
+.me-form-header{
+  color: #785424;
+}
 .me-aboutus-right{
   width: 50%;
-  background-image: url('../public/images/pngegg.png');background-repeat: no-repeat;
-  padding: 15px; background-size: 80%;
-  margin: 2%;
+  background-image: url('../public/images/me-aboutus.jpg');
+  background-repeat: no-repeat;
+  padding: 15px; background-size: 43%;
+  background-position: 96% 100%;
+  opacity: 1;
 }
+
 .me-aboutus-right-inner-container{
-  padding: 30px;
+  padding: 5%;
   align-items: center;
   vertical-align: middle;
   text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5%;
+  line-height: 2rem;
+  color: #785424;
+}
+.me-aboutus-right-inner-container h2{
+  padding-bottom: 1rem;
+}
+.me-form-header{
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0 10px;
+  margin: 1rem;
 }
 
-.me-aboutus-left-inner-container>form>label{
-  font-size: 1rem;
-  margin-right: 5%;
-}
-.me-aboutus-left-inner-container>form{
-background-color: #fff;
-padding: 3rem;
-margin: 10px 0;
-}
-input{
-  padding: 10px;
-  border: none;
-  background-color: #ececec;
-  border-radius: 5px;
-  width: 100%;
-}
-input:focus{
-  outline: 1px solid #ccc4c4;
-}
-.me-btn-form{
-  padding: 3px 20px;
-  background-color: #3c6aaf;
-  border: none;
-  height: 40px;
-  color: #fff;
-  font-size: 1.2rem;
-  margin-top: 4%;
-  text-align: center;
-  border-radius: 5px;
-}
-.me-btn-form:hover{
-  cursor: pointer;
-}
 /* Why us section */
 .me-whyus-container{
   margin-top: 3%;
-  background-color: #9cddef;
+  background-color: #fff;
+}
+.me-whyus-banner{
+  color:#785424;
 }
 .me-whyus-header{
   font-size: 1.2rem;
@@ -133,12 +130,17 @@ input:focus{
   .me-banner-right{
     width: 100%;
   }
+  .me-aboutus{
+    display: flex;
+    flex-direction: column;
+  }
   .me-aboutus-left,.me-aboutus-right{
     width: 100%;
     padding:15px
   }
   .me-aboutus-right{
-    background-size: 100%;
+    background-size: 43%;
+    background-position: 95% 100%;
   }
 
   .me-whyus-headercontent{
