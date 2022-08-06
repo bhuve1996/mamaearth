@@ -17,6 +17,7 @@ function Aboutus() {
                     type="text"
                     placeholder=""
                     name="entry.2005620554"
+                    autoComplete="off"
                     required
                   />
                   <label>Name*</label>
@@ -24,9 +25,10 @@ function Aboutus() {
 
                 <div className="text-field">
                   <input
-                    type="email"
+                    type="text"
                     placeholder=""
                     name="entry.1045781291"
+                    autoComplete="off"
                     required
                   />
                   <label>Email Address*</label>
@@ -37,6 +39,7 @@ function Aboutus() {
                     type="text"
                     placeholder=""
                     name="entry.1065046570"
+                    autoComplete="off"
                     required
                   />
                   <label>Address</label>
@@ -46,6 +49,7 @@ function Aboutus() {
                     type="text"
                     placeholder=""
                     name="entry.1166974658"
+                    autoComplete="off"
                     required
                   />
                   <label>Phone No</label>
@@ -56,6 +60,7 @@ function Aboutus() {
                     type="text"
                     placeholder=""
                     name="entry.839337160"
+                    autoComplete="off"
                     required
                   />
                   <label>Comments</label>
