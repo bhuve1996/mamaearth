@@ -122,10 +122,15 @@ svg path {
 
 .me-banner-ad-container ul {
   display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .me-banner-ad-container ul li {
-  margin-right: 8%;
+  padding: 0 1.5rem;
+  display: inline-block;
+    width: 100%;
 }
 
 .me-banner-ad-container-list {
@@ -133,7 +138,7 @@ svg path {
   align-items: center;
   justify-content: left;
   color: white;
-  padding: 0.5% 5%;
+  padding: 0.5% 1%;
 }
 
 .me-banner-ad-container-list i {
@@ -251,6 +256,16 @@ svg path {
 
   .me-banner-right {
     width: 100%;
+  }
+
+  .me-banner-ad-container ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .me-banner-ad-container ul li {
+    padding: 0 1.5rem;
+    display: inline-block;
   }
 
   .me-aboutus {

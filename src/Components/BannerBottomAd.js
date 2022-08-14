@@ -3,7 +3,7 @@ function BannerAd() {
     <>
       <section>
         <div className="me-banner-ad">
-          <marquee>
+          
             <div className="me-banner-ad-container">
               <ul>
                 <li>
@@ -56,7 +56,6 @@ function BannerAd() {
                 </li>
               </ul>
             </div>
-          </marquee>
         </div>
       </section>
     </>
