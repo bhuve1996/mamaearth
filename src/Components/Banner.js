@@ -2,26 +2,26 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 function Banner() {
-  // const responsive = {
-  //   desktop: {
-  //     breakpoint: { max: 3000, min: 1024 },
-  //     items: 1,
-  //     slidesToSlide: 1 // optional, default to 1.
-  //   },
-  //   tablet: {
-  //     breakpoint: { max: 1024, min: 464 },
-  //     items: 1,
-  //     slidesToSlide: 1 // optional, default to 1.
-  //   },
-  //   mobile: {
-  //     breakpoint: { max: 464, min: 0 },
-  //     items: 1,
-  //     slidesToSlide: 1 // optional, default to 1.
-  //   }
-  // };
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 6000, min: 1024 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    }
+  };
   return (
     <>
-    {/* <Carousel
+    <Carousel
   swipeable={false}
   draggable={false}
   showDots={true}
@@ -38,10 +38,10 @@ function Banner() {
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
 >
-  <div className="me-banner"><img src="images/me-banner-main-pc.gif" /></div>
-  <div className="me-banner"><img src="images/me-banner2.jpg" /></div>
-  <div className="me-banner"><img src="images/me-banner3.jpg" /></div>
-</Carousel> */}
+  <div className="me-banner"><img id="mebanner1" src="images/me-banner-main-pc.gif" /> <img id="mebanner2" src="images/me-banner-main-mob.gif" /></div>
+  <div className="me-banner"><img id="mebanner1" src="images/me-banner-main-pc.gif" /> <img id="mebanner2" src="images/me-banner-main-mob.gif" /></div>
+  <div className="me-banner"><img id="mebanner1" src="images/me-banner-main-pc.gif" /> <img id="mebanner2" src="images/me-banner-main-mob.gif" /></div>
+</Carousel>
       
         {/* <div className="me-banner">
           <div className="me-banner-left">
@@ -59,11 +59,11 @@ function Banner() {
           </div>
         </div> */}
 
-        <div className="me-banner">
+        {/* <div className="me-banner">
           
           <img id="mebanner1" src="images/me-banner-main-pc.gif" />
           <img id="mebanner2" src="images/me-banner-main-mob.gif" />
-        </div> 
+        </div>  */}
       
     </>
   )

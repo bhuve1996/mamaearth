@@ -36,9 +36,11 @@ img {
 }
 #mebanner1{
   display: block;
+  max-width: 100%;
 }
 #mebanner2{
   display: none;
+  max-width: 100%;
 }
 
 
@@ -252,22 +254,26 @@ svg path {
 .me-embed-container{
   margin-left: 6%;
   margin-right: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .me-video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
+  display: block;
 }
 
 .me-video-responsive iframe {
-
-  height: 100%;
-  width: 100%;
-  position: absolute;
+  
+  max-height: 100%;
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
+  .me-video-responsive iframe {
+  
+    max-height: 300px;
+    max-width: 100%;
+  }
   .me-banner {
     flex-direction: column;
   }
@@ -304,11 +310,14 @@ svg path {
   .me-banner-ad-container ul {
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
   }
   
   .me-banner-ad-container ul li {
     padding: 0 1rem;
     display: inline-block;
+    width: 33%;
+    font-size: 1rem;
   }
 
   .me-aboutus {
