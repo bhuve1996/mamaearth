@@ -2,6 +2,7 @@ import "./App.css";
 import Aboutus from "./Components/Aboutus";
 import Banner from "./Components/Banner";
 import BannerAd from "./Components/BannerBottomAd";
+import EmbedVideo from "./Components/EmbedVideo";
 import Whyus from "./Components/Whyus";
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
           </div>
           <div className="me-aboutus-container">
             <Aboutus />
+          </div>
+          <div className="me-embed-container">
+            <EmbedVideo  embedId="I2UOR2E_iH8"/>
           </div>
           <div className="me-whyus-container">
             <Whyus />

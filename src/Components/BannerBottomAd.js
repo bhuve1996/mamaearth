@@ -42,7 +42,7 @@ function BannerAd() {
                     <p>Gift</p>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className="me-banner-ad-container-list">
                     <i className="fa fa-eercast" aria-hidden="true"></i>
                     <p>All Products</p>
@@ -53,7 +53,7 @@ function BannerAd() {
                     <i className="fa fa-eercast" aria-hidden="true"></i>
                     <p>Plant Goodness</p>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
         </div>

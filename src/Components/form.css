@@ -21,7 +21,7 @@ input {
 
 input:focus {
   border: thin solid #80c342;
-  border-bottom: solid medium #80c342;
+  border-bottom: solid 2px #80c342;
   background-color: #fafafa;
 }
 

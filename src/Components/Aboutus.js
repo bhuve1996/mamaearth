@@ -75,8 +75,10 @@ function Aboutus() {
               </form>
             </div>
           </div>
+
+          
           <div className="me-aboutus-right">
-            <div className="me-aboutus-right-inner-container">
+            {/* <div className="me-aboutus-right-inner-container">
               <h2>Our Goodness Promise</h2>
 
               <p>
@@ -89,7 +91,8 @@ function Aboutus() {
               </p>
 
               <button className="me-btn-form">SHOP NOW</button>
-            </div>
+            </div> */}
+            <img className="me-aboutus-img" src="images/Infographics.jpg"/>
           </div>
         </div>
       </section>

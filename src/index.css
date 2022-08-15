@@ -30,8 +30,17 @@ img {
 
 /* Banner Section */
 .me-banner {
-  background-color: #9cddef
+  margin: 0;
+  padding: 0;
+ 
 }
+#mebanner1{
+  display: block;
+}
+#mebanner2{
+  display: none;
+}
+
 
 .me-banner-left {
   display: flex;
@@ -114,10 +123,12 @@ svg path {
 .me-banner-ad {
   background-color: black;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0;
   padding: .5rem;
+  box-sizing: border-box;
 }
 
 .me-banner-ad-container ul {
@@ -128,7 +139,7 @@ svg path {
 }
 
 .me-banner-ad-container ul li {
-  padding: 0 1.5rem;
+  padding: 0 1.8rem;
   display: inline-block;
     width: 100%;
 }
@@ -162,20 +173,24 @@ svg path {
 }
 
 .me-form-header {
-  color: #80c342;
+  color: #785424;
 }
 
 .me-aboutus-right {
   width: 50%;
-  background-image: url('../public/images/me-aboutus.jpg');
-  background-repeat: no-repeat;
-  padding: 15px;
-  background-size: 43%;
-  background-position: 96% 100%;
-  opacity: 1;
+  box-sizing: border-box;
+  margin: auto;
+  justify-content: center;
+  padding: 1%;
 }
 
-.me-aboutus-right-inner-container {
+.me-aboutus-img{
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3%;
+}
+
+/* .me-aboutus-right-inner-container {
   padding: 5%;
   align-items: center;
   vertical-align: middle;
@@ -184,12 +199,12 @@ svg path {
   border-radius: 5%;
   line-height: 2rem;
   color: #785424;
-}
+} */
 
-.me-aboutus-right-inner-container h2 {
+/* .me-aboutus-right-inner-container h2 {
   padding-bottom: 1rem;
   color: #80c342;
-}
+} */
 
 .me-form-header {
   font-size: 1.1rem;
@@ -233,6 +248,24 @@ svg path {
   flex-direction: column;
 }
 
+/* EmbedVideo */
+.me-embed-container{
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.me-video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.me-video-responsive iframe {
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
 @media (max-width: 768px) {
   .me-banner {
@@ -257,6 +290,16 @@ svg path {
   .me-banner-right {
     width: 100%;
   }
+  #mebanner1{
+    display: none;
+  }
+  #mebanner2{
+    display: block;
+  }
+  .me-banner-ad{
+    flex-wrap: wrap;
+    padding: 1%;
+  }
 
   .me-banner-ad-container ul {
     margin: 0;
@@ -264,7 +307,7 @@ svg path {
   }
   
   .me-banner-ad-container ul li {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     display: inline-block;
   }
 
