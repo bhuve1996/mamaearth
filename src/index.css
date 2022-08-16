@@ -268,6 +268,33 @@ svg path {
   max-width: 100%;
 }
 
+/* Accordian */
+.me-accordion-container {
+  max-width: 650px;
+  margin: 2rem auto;
+}
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #00adef;
+  border-radius: 5px;
+}
+.accordion-title:hover {
+  background-color: #35b2e4;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: .7rem 1.2rem;
+}
+
+.accordion-content {
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
 @media (max-width: 768px) {
   .me-video-responsive iframe {
   
@@ -347,6 +374,10 @@ svg path {
 
   .me-whyus-subcontent {
     padding: 15px 0;
+  }
+
+  .me-accordion-container {
+    width: 90%;
   }
 
 

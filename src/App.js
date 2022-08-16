@@ -3,6 +3,8 @@ import Aboutus from "./Components/Aboutus";
 import Banner from "./Components/Banner";
 import BannerAd from "./Components/BannerBottomAd";
 import EmbedVideo from "./Components/EmbedVideo";
+import Accordion from "./Components/TermsAndConditions/Accordian";
+import { accordionData } from "./Components/TermsAndConditions/AccordianContent";
 import Whyus from "./Components/Whyus";
 
 function App() {
@@ -22,9 +24,14 @@ function App() {
           <div className="me-embed-container">
             <EmbedVideo  embedId="I2UOR2E_iH8"/>
           </div>
-          <div className="me-whyus-container">
+          {/* <div className="me-whyus-container">
             <Whyus />
-          </div>
+          </div> */}
+          <div className="me-accordion-container">
+        {accordionData.map(({ title, content }) => (
+          <Accordion title={title} content={content} />
+        ))}
+      </div>
         </div>
       </div>
     </>
