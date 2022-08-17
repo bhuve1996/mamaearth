@@ -39,8 +39,8 @@ function Banner() {
   itemClass="carousel-item-padding-40-px"
 >
   <div className="me-banner"><img id="mebanner1" src="images/me-banner-main-pc.gif" /> <img id="mebanner2" src="images/me-banner-main-mob.gif" /></div>
-  <div className="me-banner"><img id="mebanner1" src="images/me-banner-main-pc.gif" /> <img id="mebanner2" src="images/me-banner-main-mob.gif" /></div>
-  <div className="me-banner"><img id="mebanner1" src="images/me-banner-main-pc.gif" /> <img id="mebanner2" src="images/me-banner-main-mob.gif" /></div>
+  <div className="me-banner"><img id="mebanner1" src="images/me-banner 2_desktop.jpg" /> <img id="mebanner2" src="images/me-Banner 2_Mobile.jpg" /></div>
+  <div className="me-banner"><img id="mebanner1" src="images/me-Banner 3_Desktop.jpg" /> <img id="mebanner2" src="images/me-Banner 3_Mobile.jpg" /></div>
 </Carousel>
       
         {/* <div className="me-banner">
