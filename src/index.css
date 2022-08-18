@@ -278,11 +278,11 @@ svg path {
   flex-direction: row;
   justify-content: space-between;
   cursor: pointer;
-  background-color: #00adef;
+  background-color: #e4bd34;
   border-radius: 5px;
 }
 .accordion-title:hover {
-  background-color: #35b2e4;
+  background-color: #f5d04d;
 }
 
 .accordion-title,

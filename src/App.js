@@ -15,9 +15,9 @@ function App() {
           <div className="me-banner-container">
             <Banner />
           </div>
-          <div className="me-banner-ad-container">
+          {/* <div className="me-banner-ad-container">
             <BannerAd />
-          </div>
+          </div> */}
           <div className="me-aboutus-container">
             <Aboutus />
           </div>
