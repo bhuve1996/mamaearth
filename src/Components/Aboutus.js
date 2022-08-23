@@ -7,18 +7,29 @@ function Aboutus() {
         <div className="me-aboutus">
           <div className="me-aboutus-left">
             <div className="me-aboutus-left-inner-container">
-              <div className="me-form-header"><h2>Submit your Entry</h2></div>
+              <div className="me-form-header">
+                <h2>Submit your Entry</h2>
+              </div>
               <form
-                action="https://docs.google.com/forms/d/e/1FAIpQLSep02FE82d4gAX79YAS6CEQ5soLJiX_VCq98rHo5fHzylJ-KA/formResponse"
+                action="https://docs.google.com/forms/d/e/1FAIpQLSdsH1_xeEBRhfOJ0mKpF0ljK0rpbA8WdN2M5-c5d9aqDIb2pQ/formResponse"
                 method="post"
               >
                 <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
-                    name="entry.2005620554"
+                    name="emailAddress"
                     autoComplete="off"
-                    required
+                  />
+                  <label>Email*</label>
+                </div>
+
+                <div className="text-field">
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="entry.71797510"
+                    autoComplete="off"
                   />
                   <label>Name*</label>
                 </div>
@@ -27,47 +38,42 @@ function Aboutus() {
                   <input
                     type="text"
                     placeholder=""
-                    name="entry.1045781291"
+                    name="entry.893390289"
                     autoComplete="off"
-                    required
                   />
-                  <label>Email Address*</label>
+                  <label>Contact Number*</label>
                 </div>
-
+                {/* <div className="text-field">
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="entry.881328227"
+                    autoComplete="off"
+                    
+                  />
+                  <label>Wedding Date*</label>
+                </div> */}
                 <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
-                    name="entry.1065046570"
+                    name="entry.881328227"
                     autoComplete="off"
-                    required
                   />
-                  <label>Address</label>
+                  <label>Address*</label>
                 </div>
-                <div className="text-field">
+                {/* <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
-                    name="entry.1166974658"
+                    name="entry.141546762"
                     autoComplete="off"
-                    required
+                    
                   />
-                  <label>Phone No</label>
-                </div>
-
-                <div className="text-field">
-                  <input
-                    type="text"
-                    placeholder=""
-                    name="entry.839337160"
-                    autoComplete="off"
-                    required
-                  />
-                  <label>Comments</label>
-                </div>
-
-                {/* <label>Message*</label>
-        <textarea rows="5" placeholder="Message*" name="entry.1166974658" required></textarea>  */}
+                  <label>
+                    Tell us about a #ShaadiWalaGlow moment with your partner? *
+                  </label>
+                </div> */}
 
                 <button type="submit" className="me-btn-form">
                   Send
@@ -76,7 +82,6 @@ function Aboutus() {
             </div>
           </div>
 
-          
           <div className="me-aboutus-right">
             {/* <div className="me-aboutus-right-inner-container">
               <h2>Our Goodness Promise</h2>
@@ -92,7 +97,7 @@ function Aboutus() {
 
               <button className="me-btn-form">SHOP NOW</button>
             </div> */}
-            <img className="me-aboutus-img" src="images/Infographics.jpg"/>
+            <img className="me-aboutus-img" src="images/Infographics.jpg" />
           </div>
         </div>
       </section>
