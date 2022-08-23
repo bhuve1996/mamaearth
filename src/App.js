@@ -22,16 +22,16 @@ function App() {
             <Aboutus />
           </div>
           <div className="me-embed-container">
-            <EmbedVideo  embedId="mBjg6ClbRxo"/>
+            <EmbedVideo embedId="mBjg6ClbRxo" />
           </div>
           {/* <div className="me-whyus-container">
             <Whyus />
           </div> */}
           <div className="me-accordion-container">
-        {accordionData.map(({ title, content }) => (
-          <Accordion title={title} content={content} />
-        ))}
-      </div>
+            {accordionData.map(({ title, content }) => (
+              <Accordion title={title} content={content} />
+            ))}
+          </div>
         </div>
       </div>
     </>

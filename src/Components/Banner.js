@@ -6,44 +6,53 @@ function Banner() {
     desktop: {
       breakpoint: { max: 6000, min: 1024 },
       items: 1,
-      slidesToSlide: 1 // optional, default to 1.
+      slidesToSlide: 1, // optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 1,
-      slidesToSlide: 1 // optional, default to 1.
+      slidesToSlide: 1, // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      slidesToSlide: 1 // optional, default to 1.
-    }
+      slidesToSlide: 1, // optional, default to 1.
+    },
   };
   return (
     <>
-    <Carousel
-  swipeable={true}
-  draggable={false}
-  showDots={false}
-  responsive={responsive}
-  ssr={true} // means to render carousel on server-side.
-  infinite={true}
-  autoPlay={true}
-  autoPlaySpeed={3000}
-  keyBoardControl={true}
-  customTransition="transform 300ms ease-in-out"
-  transitionDuration={500}
-  containerClass="carousel-container"
-  removeArrowOnDeviceType={[]}
-  dotListClass="custom-dot-list-style"
-  itemClass="carousel-item-padding-40-px"
->
-  <div className="me-banner"><img id="mebanner1" src="images/me-banner-main-pc.gif" /> <img id="mebanner2" src="images/me-banner-main-mob.gif" /></div>
-  <div className="me-banner"><img id="mebanner1" src="images/me-banner 2_desktop.jpg" /> <img id="mebanner2" src="images/me-Banner 2_Mobile.jpg" /></div>
-  <div className="me-banner"><img id="mebanner1" src="images/me-Banner 3_Desktop.jpg" /> <img id="mebanner2" src="images/me-Banner 3_Mobile.jpg" /></div>
-</Carousel>
-      
-        {/* <div className="me-banner">
+      <Carousel
+        swipeable={true}
+        draggable={false}
+        showDots={false}
+        responsive={responsive}
+        ssr={true} // means to render carousel on server-side.
+        infinite={true}
+        autoPlay={true}
+        autoPlaySpeed={3000}
+        keyBoardControl={true}
+        customTransition="transform 300ms ease-in-out"
+        transitionDuration={500}
+        containerClass="carousel-container"
+        removeArrowOnDeviceType={[]}
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+      >
+        <div className="me-banner">
+          <img id="mebanner1" src="images/me-banner-main-pc.gif" />{" "}
+          <img id="mebanner2" src="images/me-banner-main-mob.gif" />
+        </div>
+        <div className="me-banner">
+          <img id="mebanner1" src="images/me-banner 2_desktop.jpg" />{" "}
+          <img id="mebanner2" src="images/me-Banner 2_Mobile.jpg" />
+        </div>
+        <div className="me-banner">
+          <img id="mebanner1" src="images/me-Banner 3_Desktop.jpg" />{" "}
+          <img id="mebanner2" src="images/me-Banner 3_Mobile.jpg" />
+        </div>
+      </Carousel>
+
+      {/* <div className="me-banner">
           <div className="me-banner-left">
             <div className="me-banner-left-inner-container">
               <h2>Goodness Inside' is a promise.</h2>
@@ -59,14 +68,13 @@ function Banner() {
           </div>
         </div> */}
 
-        {/* <div className="me-banner">
+      {/* <div className="me-banner">
           
           <img id="mebanner1" src="images/me-banner-main-pc.gif" />
           <img id="mebanner2" src="images/me-banner-main-mob.gif" />
         </div>  */}
-      
     </>
-  )
+  );
 }
 
 export default Banner;

@@ -32,13 +32,15 @@ img {
 .me-banner {
   margin: 0;
   padding: 0;
- 
+
 }
-#mebanner1{
+
+#mebanner1 {
   display: block;
   max-width: 100%;
 }
-#mebanner2{
+
+#mebanner2 {
   display: none;
   max-width: 100%;
 }
@@ -143,7 +145,7 @@ svg path {
 .me-banner-ad-container ul li {
   padding: 0 1.8rem;
   display: inline-block;
-    width: 100%;
+  width: 100%;
 }
 
 .me-banner-ad-container-list {
@@ -186,7 +188,7 @@ svg path {
   padding: 1%;
 }
 
-.me-aboutus-img{
+.me-aboutus-img {
   max-width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 3%;
@@ -231,7 +233,7 @@ svg path {
   padding-top: 20px;
 }
 
-.me-whyus-header h2{
+.me-whyus-header h2 {
   color: #80c342;
 }
 
@@ -251,19 +253,20 @@ svg path {
 }
 
 /* EmbedVideo */
-.me-embed-container{
+.me-embed-container {
   margin-left: 6%;
   margin-right: 6%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .me-video-responsive {
   display: block;
 }
 
 .me-video-responsive iframe {
-  
+
   max-height: 100%;
   max-width: 100%;
 }
@@ -273,6 +276,7 @@ svg path {
   max-width: 650px;
   margin: 2rem auto;
 }
+
 .accordion-title {
   display: flex;
   flex-direction: row;
@@ -302,10 +306,11 @@ svg path {
 
 @media (max-width: 768px) {
   .me-video-responsive iframe {
-  
+
     max-height: 300px;
     max-width: 100%;
   }
+
   .me-banner {
     flex-direction: column;
   }
@@ -328,13 +333,16 @@ svg path {
   .me-banner-right {
     width: 100%;
   }
-  #mebanner1{
+
+  #mebanner1 {
     display: none;
   }
-  #mebanner2{
+
+  #mebanner2 {
     display: block;
   }
-  .me-banner-ad{
+
+  .me-banner-ad {
     flex-wrap: wrap;
     padding: 1%;
   }
@@ -344,7 +352,7 @@ svg path {
     padding: 0;
     flex-wrap: wrap;
   }
-  
+
   .me-banner-ad-container ul li {
     padding: 0 1rem;
     display: inline-block;
