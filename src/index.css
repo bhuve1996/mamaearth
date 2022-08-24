@@ -284,7 +284,12 @@ svg path {
   cursor: pointer;
   background-color: #e4bd34;
   border-radius: 5px;
+  
+}
+.accordion-title a{
+  text-decoration: none;
   font-size: 1rem;
+  color: #141414;
 }
 
 .accordion-title:hover {

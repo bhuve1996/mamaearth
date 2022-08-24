@@ -18,31 +18,33 @@ function Aboutus() {
                   <input
                     type="text"
                     placeholder=""
-                    name="emailAddress"
-                    autoComplete="off"
-                  />
-                  <label>Email*</label>
-                </div>
-
-                <div className="text-field">
-                  <input
-                    type="text"
-                    placeholder=""
                     name="entry.71797510"
                     autoComplete="off"
+                    required
                   />
                   <label>Name*</label>
                 </div>
-
                 <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
                     name="entry.893390289"
                     autoComplete="off"
+                    required
                   />
                   <label>Contact Number*</label>
                 </div>
+                <div className="text-field">
+                  <input
+                    type="text"
+                    placeholder=""
+                    name="emailAddress"
+                    autoComplete="off"
+                    required
+                  />
+                  <label>Email*</label>
+                </div>
+
                 {/* <div className="text-field">
                   <input
                     type="text"
@@ -53,27 +55,28 @@ function Aboutus() {
                   />
                   <label>Wedding Date*</label>
                 </div> */}
-                <div className="text-field">
+                {/* <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
                     name="entry.881328227"
                     autoComplete="off"
+                    required
                   />
                   <label>Address*</label>
-                </div>
-                {/* <div className="text-field">
+                </div> */}
+                <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
                     name="entry.141546762"
                     autoComplete="off"
-                    
+                    required
                   />
                   <label>
                     Tell us about a #ShaadiWalaGlow moment with your partner? *
                   </label>
-                </div> */}
+                </div>
 
                 <button type="submit" className="me-btn-form">
                   Send
