@@ -1,4 +1,4 @@
-.text-field {
+/* .text-field {
   position: relative;
   margin: 10px 2.5px 20px 2.5px;
 }
@@ -77,3 +77,7 @@ input:focus {
   background-color: #80c342;
   transition-duration: .8s;
 }
+
+iframe ::-webkit-scrollbar {
+  display: none;
+} */

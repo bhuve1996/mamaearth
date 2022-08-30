@@ -10,7 +10,14 @@ function Aboutus() {
               <div className="me-form-header">
                 <h2>Submit your Entry</h2>
               </div>
-              <form
+              <div id="containerIframe">
+  
+ 
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsH1_xeEBRhfOJ0mKpF0ljK0rpbA8WdN2M5-c5d9aqDIb2pQ/viewform?embedded=true"   frameborder="0" marginheight="0" marginwidth="0"
+     
+              >Loading…</iframe>
+                 </div>
+              {/* <form
                 action="https://docs.google.com/forms/d/e/1FAIpQLSdsH1_xeEBRhfOJ0mKpF0ljK0rpbA8WdN2M5-c5d9aqDIb2pQ/formResponse"
                 method="post"
               >
@@ -45,7 +52,7 @@ function Aboutus() {
                   <label>Email*</label>
                 </div>
 
-                {/* <div className="text-field">
+                <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
@@ -54,8 +61,8 @@ function Aboutus() {
                     
                   />
                   <label>Wedding Date*</label>
-                </div> */}
-                {/* <div className="text-field">
+                </div>
+                <div className="text-field">
                   <input
                     type="text"
                     placeholder=""
@@ -64,7 +71,7 @@ function Aboutus() {
                     required
                   />
                   <label>Address*</label>
-                </div> */}
+                </div>
                 <div className="text-field">
                   <input
                     type="text"
@@ -81,7 +88,7 @@ function Aboutus() {
                 <button type="submit" className="me-btn-form">
                   Send
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
 

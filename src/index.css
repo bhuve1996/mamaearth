@@ -194,21 +194,7 @@ svg path {
   border-radius: 3%;
 }
 
-/* .me-aboutus-right-inner-container {
-  padding: 5%;
-  align-items: center;
-  vertical-align: middle;
-  text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 5%;
-  line-height: 2rem;
-  color: #785424;
-} */
 
-/* .me-aboutus-right-inner-container h2 {
-  padding-bottom: 1rem;
-  color: #80c342;
-} */
 
 .me-form-header {
   font-size: 1.1rem;
@@ -284,9 +270,10 @@ svg path {
   cursor: pointer;
   background-color: #e4bd34;
   border-radius: 5px;
-  
+
 }
-.accordion-title a{
+
+.accordion-title a {
   text-decoration: none;
   font-size: 1rem;
   color: #141414;
@@ -309,11 +296,49 @@ svg path {
   transition: opacity .5s ease-in;
 }
 
+#containerIframe {
+  width: 100%;
+  height: 53vh;
+  overflow: hidden;
+  padding-left: 2%;
+}
+
+#containerIframe iframe {
+  width: 100%;
+  height: 90%;
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+  #containerIframe {
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+
+  }
+
+  #containerIframe iframe {
+    width: 100%;
+    height: 90%;
+  }
+}
+
 @media (max-width: 768px) {
   .me-video-responsive iframe {
 
     max-height: 300px;
     max-width: 100%;
+  }
+
+  #containerIframe {
+    width: 100%;
+    height: 46vh;
+    overflow: hidden;
+
+  }
+
+  #containerIframe iframe {
+    width: 100%;
+    height: 90%;
   }
 
   .me-banner {
@@ -400,3 +425,4 @@ svg path {
 
 
 }
+
